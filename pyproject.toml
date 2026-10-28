@@ -1,0 +1,17 @@
+[project]
+name = "bedrock-qa-bot"
+version = "0.1.0"
+description = "Amazon Bedrock documentation RAG pipeline using LangChain and Pinecone"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-openai>=1.0,<2.0",
+    "langchain-pinecone>=0.2,<1.0",
+    "langchain-text-splitters>=1.0,<2.0",
+    "beautifulsoup4>=4.12,<5.0",
+    "requests>=2.32,<3.0",
+    "python-dotenv>=1.0,<2.0",
+    "pinecone>=7.3,<8.0",
+    "tiktoken>=0.12,<1.0",
+    "numpy>=2.0,<3.0",
+    "streamlit>=1.66.1",
+]
